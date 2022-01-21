@@ -1,0 +1,52 @@
+@use '../styles/variables.scss' as v;
+
+:root {
+  --white-color: #fff;
+  --blue-color: #2f80ed;
+  --color-900: #111827;
+  --color-800: #1f2937;
+  --color-700: #374151;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: box-shadow ease-in-out 150ms;
+
+  &:focus {
+    box-shadow: 0 0 0.125rem 0.125rem var(--blue-color);
+  }
+}
+
+html {
+  font-size: 0.875rem;
+  font-family: Roboto, sans-serif;
+
+  @media (min-width: v.$breakpoint) {
+    font-size: 1rem;
+  }
+}
+
+body {
+  background: var(--white-color);
+  color: var(--color-800);
+}
+
+input {
+  font-size: 0.875rem;
+}
+
+button {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue-color);
+}

@@ -8,13 +8,17 @@
       display: block;
       color: var(--color-700);
     }
+  }
 
-    input {
-      width: 100%;
-      height: 3.125rem;
-      border: 0.06rem solid #e8e8e8;
-      border-radius: 0.3rem;
-      padding: 0 1.25rem;
+  &__input {
+    width: 100%;
+    height: 3.125rem;
+    border: 0.06rem solid #e8e8e8;
+    border-radius: 0.3rem;
+    padding: 0 1.25rem;
+
+    &--error {
+      box-shadow: 0 0 0.125rem 0.125rem red !important;
     }
   }
 
@@ -22,6 +26,14 @@
     display: flex;
     justify-content: space-between;
     margin-top: 1.75rem;
+  }
+
+  &__link {
+    transition: color ease-in-out 150ms;
+
+    &:not(:hover) {
+      color: var(--color-800);
+    }
   }
 
   &__checkbox {
