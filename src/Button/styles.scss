@@ -1,0 +1,17 @@
+.button {
+  height: 3.125rem;
+  font-weight: 700;
+  padding: 0 2rem;
+  border-width: 0;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: #fff;
+
+  &--primary {
+    background: #04c35c;
+  }
+
+  &--secondary {
+    background: #27272a;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "unit-allowed-list": ["em", "rem", "%", "vh", "ms"],
+    "string-quotes": "single"
+  }
+}

@@ -1,0 +1,35 @@
+:root {
+  --blue-color: #2f80ed;
+  --color-900: #111827;
+  --color-800: #1f2937;
+  --color-700: #374151;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+input {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: var(--color-800);
+}
+
+input {
+  font-size: 0.875rem;
+}
+
+button {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
