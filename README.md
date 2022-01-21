@@ -2,6 +2,13 @@
 
 The repo contains a React implementation of [this](https://www.figma.com/community/file/836569395944745131) design created by [Daniel](https://www.figma.com/@iiCe).
 
+## Technologies and libraries
+
+* React
+* Typescript
+* SASS
+* react-hook-form
+
 ## Getting started
 
 ### Clone and open directory
