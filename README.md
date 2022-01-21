@@ -2,6 +2,10 @@
 
 The repo contains a React implementation of [this](https://www.figma.com/community/file/836569395944745131) design created by [Daniel](https://www.figma.com/@iiCe).
 
+## Screenshot
+
+![screenshot](./img/login-page.PNG)
+
 ## Technologies and libraries
 
 * React
@@ -11,7 +15,7 @@ The repo contains a React implementation of [this](https://www.figma.com/communi
 
 ## Getting started
 
-### Clone and open directory
+### Clone repo and open directory
 
 ```bash
 git clone https://github.com/derav/login-page-example.git
